@@ -126,6 +126,11 @@ nav ul li a {
     font-size: 18px;
 }
 
+.resume p {
+    margin-bottom: 30px; /* Adjust the space below the paragraph */
+}
+
+
 /*Contact Section*/
 .contact {
     padding: 50px 20px;
