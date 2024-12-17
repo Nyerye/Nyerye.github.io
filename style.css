@@ -127,7 +127,7 @@ nav ul li a {
 }
 
 .resume p {
-    margin-bottom: 30px; /* Adjust the space below the paragraph */
+    margin-bottom: 30px;
 }
 
 
@@ -147,6 +147,12 @@ nav ul li a {
 .contact p {
     font-size: 18px;
 }
+
+.contact {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 8px; 
+
 
 /*Footer*/
 footer {
