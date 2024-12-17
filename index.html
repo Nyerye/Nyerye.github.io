@@ -1,7 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Reilly | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Nicholas Reilly</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+	
+        <h1>Welcome to My Portfolio</h1>
+        <p>This website was made using HTML, CSS and JavaScript languages. I decided to use the GitHub Pages product to create my own 
+		portfolio page and be able to use this wesbite as a way to demonstrate my knowledge in web programming languages. This website
+		serves as a project to showcase my proficency in these languages.
+		</p>
+		
+		<h2>About Me</h1>
+		<p> I have been in the IT Industry for almost 10 years, with my start in retail at Apple as a Lead Technician. 
+		Over the pandemic, I was reassigned to Apple's main call center where I was able to take a leadership position and manage a team of 20 people. 
+		When I returned, I was able to also showcase my skills in sales and won numerous awards for exceptional customer service and sales metrics.
+		But after being with Apple for a long time, I wanted to do more enterprise IT consulting and be able to grow a career. I decided to challenge myself
+		and enter the healthcare industry as an IT technician shortly after the pandemic's peak. It was after that I was offered an oppourtunity to work for the Region of 
+		Waterloo as a full time ITS Consultant. in my time as an ITS Consultant, I was exposed to working on many bigger projects with mutiple departments and stakeholders.
+		While being exposed to low and high level languages, database languages and webpage languages, my passion for development was reingnited. I decided to go back
+		and resume my education while taking on a different role. My desire for innovation, dedication to customer satisfaction and my motivation for problem solving is well recognized by my peers. 
+		I look forward to discussing how my skills and experience may align with your company.
+		
+		Sincerely,
+		Nicholas Reilly
+		</p>
+		
+		<h2>Languages</h1>
+		<p> Programming Languages: C | C++ | C# | Python | HTML | CSS | JavaScript | PHP |
+		    Database Languages: PostgreSQL | Oracle | Microsoft SQL Server |
+			Frameworks and Tech: Docker | Azure AD | Kubernetes | Azure DevOps | Git | Visual Studio | Eclipse 
+        <a href="#projects" class="btn">Explore My Projects</a>
+    </section>
+
+    <!-- Projects Section -->
+   <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+        <!-- Project 1 -->
+        <div class="card">
+            <img src="images/TkinterUI" alt="Conestoga End User UI">
+            <h3>Conestoga Emergency Notification System</h3>
+            <p>A program that utilizies Python and multiple dependencies to work with a Flask Server to control POST and GET requests to target all computers in the organizations network
+			   for notifications related to safety. A HTMl payload is sent with the corresponding bnotifcation information. 
+			</p>
+            <a href="https://github.com/Nyerye/Conestoga-Notification-System" class="btn">View on GitHub</a>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="card">
+            <img src="images/project2-screenshot.jpg" alt="Project 2 Screenshot">
+            <h3>Project 2</h3>
+            <p>This is a C program for managing student data. The program allows users to add student information, modify grades, 
+			search for students by name, display student records, and save the data to a file. It also includes functionality for reading student data 
+			from a file and performing average grade calculations.
+			</p>
+            <a href="https://github.com/Nyerye/C-Student-Management-System/tree/main" class="btn">View on GitHub</a>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="card">
+			<img src="images/Calc 1.png" alt="Entering input">
+			<img src="images/Calc 2.png" alt="Console displays output">
+            <h3>C# Calculator</h3>
+            <p>A simple calculator application built using C# and WPF (Windows Presentation Foundation) to perform basic arithmetic operations such as addition, subtraction, multiplication, 
+			division. This project demonstrates the implementation of a functional calculator UI and basic mathematical operations.
+			</p>
+            <a href="https://github.com/Nyerye/CSharp-.NET-Calculator" class="btn">View on GitHub</a>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Resume Section -->
+	<section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p>Download my resume below:</p>
+    <a href="Nicholas_Reilly_Resume.pdf" download="Nicholas_Reilly_Resume" class="btn">Download Resume</a>
+	</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> <a href="mailto:nicholas_reilly@outlook.com">nicholas_reilly@outlook.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+12267525910">226-752-5910</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nicholas Reilly | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="animations.js"></script>
 </body>
 </html>
