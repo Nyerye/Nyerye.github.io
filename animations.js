@@ -1,4 +1,4 @@
-// Smooth scroll to sections
+//Smooth scroll to sections
 document.querySelectorAll('nav ul li a').forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -8,7 +8,7 @@ document.querySelectorAll('nav ul li a').forEach(link => {
     });
 });
 
-// Project card hover animations
+//Project card hover animations
 function expandCard(card) {
     card.style.transform = "scale(1.1)";
     card.style.transition = "transform 0.3s ease-in-out";
